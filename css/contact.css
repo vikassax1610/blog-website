@@ -1,0 +1,28 @@
+.home-articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+.contact-content::after {
+  content: "";
+  background-image: url("../img/1.jpeg");
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.form-box textarea {
+  height: 200px;
+}
