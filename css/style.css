@@ -6,7 +6,7 @@
   padding-top: 20px;
   margin-top: 20px;
   font-family: var(--font1);
-  height: 70px;
+  /* height: 70px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +47,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   /* background-color: #C4DFE6; */
-  height: 395px;
+  height: 100%;
   display: flex;
   position: relative;
 }
@@ -137,5 +137,4 @@
 .footer ul li a {
   color: white;
   text-decoration: none;
-  border-bottom: 2px solid transparent;
 }
